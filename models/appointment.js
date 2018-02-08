@@ -8,8 +8,8 @@ const AppointmentSchema = new mongoose.Schema({
   time: { type: Date, index: true }
 });
 
-const Appointment = mongoose.model('AppointmentSchema', Appointment);
+const Appointment = mongoose.model('Appointment', AppointmentSchema);
 
 module.exports = {
-  Appoinment: Appointment
+  Appointment: Appointment
 };
